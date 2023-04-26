@@ -1,13 +1,14 @@
 import {StyleSheet} from 'react-native'
+import { colors } from '../../utils/constants/colors';
 
 const styles = StyleSheet.create({
     container: {
-      backgroundColor: '#F0F1FF',
+      backgroundColor: colors.background,
     },
     contactContainer: {
-      backgroundColor: 'white',
+      backgroundColor: colors.contact_background,
       borderRadius: 8,
-      shadowColor: '#171717',
+      shadowColor: colors.shadow,
       shadowOpacity: 0.2,
       shadowRadius: 3,
       elevation: 10,
@@ -15,7 +16,7 @@ const styles = StyleSheet.create({
     },
   
     userIcon: {
-      color: '#344054',
+      color: colors.user_icon,
     },
   
     nameText: {
